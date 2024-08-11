@@ -5,6 +5,31 @@
   background-color: #f1f1f1;
 }
 
+.review-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.review-title {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.review-author {
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+.review-item button {
+  align-self: flex-start; /* Aligns the button to the start of the container */
+  margin-top: 10px;
+}
+
+
 #errorBlock {
   display: none;
 }
+
